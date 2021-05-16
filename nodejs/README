@@ -1,0 +1,11 @@
+1、bin是项目的启动文件，配置以什么方式启动项目，默认 npm start
+2、app.js是入口文件
+3、views目录下放的是视图文件
+4、routes负责路由
+5、public放的是一些css等文件
+6、node_modules下面是已安装和要安装模块的存放位置
+7、package.json是项目模块依赖文件
+
+res.render('register', {errMsg:""});//第一个参数代表返回views的路径，第二个参数是返回该页面所携带的参数
+
+router.post('/aa',function(req, res) {}
